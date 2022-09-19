@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Proyect for add/remove and listing Task
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project use Redux-Toolkit
 
 ## Available Scripts
 
