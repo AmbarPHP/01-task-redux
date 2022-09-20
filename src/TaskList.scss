@@ -1,0 +1,29 @@
+
+.container{
+   
+    background-color: rgb(212, 197, 171);
+}
+.item{
+    display: flex;
+    margin:1rem;
+    padding: 1rem;
+    flex-direction: column;
+    background-color: rgb(25, 5, 53);
+    border-radius: 20px;
+
+}
+.title{
+    color: aliceblue;
+    font-size: 1rem;
+}
+.description{
+    color: aliceblue;
+    font-size: 1rem;
+}
+.deleteTask{
+
+    border-radius: 30px;
+    background-color: rgb(212, 197, 171);
+    font-weight: 700;
+    margin: 1rem ;
+}

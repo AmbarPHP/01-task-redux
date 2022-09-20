@@ -30,8 +30,17 @@ export const taskSlice=createSlice({
           //si estaba en ceros
           state.taskItems.push(tempItem);
         
+        },
+        deleteTask:(state,action)=>{
+            console.log("delete action",action.payload);
+            const taskFound=state.taskItems.map((task, index)=>{
+                 if(task.id==action.payload){
+                    state.taskItems.splice(index,1);
+                 }
+            });
+      
         }
     }
 })
-export const {addTask} = taskSlice.actions;
+export const {addTask, deleteTask} = taskSlice.actions;
 export default taskSlice.reducer;
